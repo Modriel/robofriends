@@ -13,12 +13,13 @@ class App extends Component {
     }
     render() {
         return (
-            <div className='tc' >
+            <section className='tc' >
                 <h1>RoboFriends</h1>
                 <SearchBox />
                 <CardList robots={this.state.robots} />
-            </div>
+            </section>
         );
     }
 }
+
 export default App
