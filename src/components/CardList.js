@@ -2,6 +2,9 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots }) => {
+    // if (true) {
+    //     throw new Error('nooooooo')
+    // }
     return (
         <div >
             {
@@ -9,7 +12,7 @@ const CardList = ({ robots }) => {
                     return (
                         <Card
                             key={robots[i].id}
-                            id={robots[1].id}
+                            id={robots[i].id}
                             name={robots[i].name}
                             email={robots[i].email}
                         />
